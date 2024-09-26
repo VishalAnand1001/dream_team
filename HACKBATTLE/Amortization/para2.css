@@ -1,0 +1,80 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #d1d9e1 0%, #9db2c7 100%); /* Darker gradient */
+    color: #333333; /* Dark Gray */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; /* Improved readability */
+}
+
+h1 {
+    font-weight: bolder;
+    margin-top: 70px; /* Adjust the value as needed */
+    font-size: 50px;
+    scroll-margin-top: 60px; /* Adjust this value to match the height of your header */
+    text-align: center; /* Center align heading */
+    color: #2c3e50; /* Dark Blue */
+}
+
+.content {
+    text-align: center; /* Center the content */
+    font-size: 20px;
+}
+
+#intro {
+    text-align: center;
+    border-radius: 1em;
+    font-size: 1.25rem;
+    padding: 2rem;
+    background-color: #f8c8c8; /* Soft pink */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    margin: 2rem auto;
+    border: 2px solid #f8c8c8;
+    transition: transform 0.3s ease;
+}
+
+#intro:hover {
+    transform: translateY(-5px);
+}
+
+.important-topics {
+    background-color: #ffffff; /* White background for contrast */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    padding: 2rem; /* Padding inside the box */
+    margin: 2rem auto; /* Center the box */
+    max-width: 600px; /* Limit width for better readability */
+    text-align: center; /* Left align text */
+}
+
+.important-topics h2 {
+    text-align: center; /* Center the heading */
+    color: #2c3e50; /* Dark Blue */
+    margin-bottom: 1rem; /* Space below heading */
+}
+
+.important-topics ul {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    list-style-type: none; /* Remove numbering/bullets */
+}
+
+.important-topics li {
+    margin: 10px 0; /* Add space between items */
+    font-size: 1.1rem; /* Slightly larger font */
+}
+
+.important-topics a {
+    color: #1abc9c; /* Vibrant Green for links */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth transition for link color */
+}
+
+.important-topics a:hover {
+    color: #16a085; /* Darker Green on hover */
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+}

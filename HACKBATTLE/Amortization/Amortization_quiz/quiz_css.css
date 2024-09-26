@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: indigo;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the quiz */
+.quiz-container {
+    background-color: aquamarine;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+/* EXP bar container */
+.exp-container {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 25px;
+    margin: 20px 0;
+}
+
+/* EXP bar that fills up */
+.exp-bar {
+    width: 0%; /* Start at 0% */
+    height: 25px;
+    background-color: #4caf50;
+    border-radius: 25px;
+    transition: width 0.4s ease; /* Smooth transition */
+}
+
+/* Text that displays EXP value */
+#exp-text {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Styling for the question text */
+#question {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Button container for the answers */
+#answer-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Styling for answer buttons */
+.btn {
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Correct and incorrect answer styling */
+.correct {
+    background-color: #28a745 !important; /* Green for correct */
+    color: white;
+    border-color: #28a745;
+}
+
+.incorrect {
+    background-color: #dc3545 !important; /* Red for incorrect */
+    color: white;
+    border-color: #dc3545;
+}
+
+/* Next button styling */
+#next-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    margin-top: 20px;
+}
+
+#next-button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 600px) {
+    .quiz-container {
+        padding: 15px;
+    }
+
+    #question {
+        font-size: 18px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+
+    #next-button {
+        font-size: 14px;
+    }
+}

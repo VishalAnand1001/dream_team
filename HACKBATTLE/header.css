@@ -1,0 +1,33 @@
+header {
+    background-color: #2c3e50; /* Dark Blue */
+    color: #ffffff; /* White text for contrast */
+    position: fixed; /* Keep the header fixed */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensure it stays above other elements */
+    padding: 15px 0; /* Adjusted padding for a more balanced look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Softer shadow for depth */
+    transition: background 0.3s ease; /* Smooth transition for background */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Vertically center items */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline */
+    color: #1abc9c; /* Vibrant Green for links */
+    margin: 0 20px; /* Adjust margin for better spacing */
+    font-weight: 500; /* Slightly bolder for emphasis */
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+    padding: 8px 15px; /* Increased padding for a more clickable area */
+    border-radius: 5px; /* Rounded corners */
+}
+
+nav a:hover {
+    color: #ffffff; /* Change text color to white on hover */
+    background-color: rgba(26, 188, 156, 0.3); /* Light green background on hover */
+}

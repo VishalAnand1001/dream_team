@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #d1d9e1 0%, #9db2c7 100%);
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+header {
+    margin-bottom: 30px; /* Increased space below the header */
+    padding-bottom: 10px; /* Additional padding if needed */
+}
+
+.text {
+    text-align: center;
+    margin: 20px 0; /* Space around the text section */
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-top: 30px;
+    color: #2c3e50;
+}
+
+img {
+    width: 80%; /* Responsive width */
+    max-width: 700px; /* Max width for larger screens */
+    border-radius: 15px; /* Rounded edges */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    margin-bottom: 30px; /* Space below the image */
+}
+
+p {
+    margin: 20px auto; /* Adjusted margin for better spacing */
+    max-width: 800px; /* Max width for readability */
+    line-height: 1.8;
+    padding: 0 20px; /* Added padding for better alignment */
+}
+
+footer {
+    margin-top: 40px; /* Space above footer */
+}
+
+h3 {
+    margin: 30px 0; /* Space around h3 headings */
+    text-align: left; /* Align left if necessary */
+}

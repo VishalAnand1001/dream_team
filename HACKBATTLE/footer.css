@@ -1,0 +1,16 @@
+footer {
+    text-align: left;
+    padding: 1.5rem; /* More padding for a balanced look */
+    background-color: #34495e; /* Darker Blue */
+    color: #ffffff; /* White text for contrast */
+    position: relative; /* Allow footer to sit naturally */
+}
+
+footer a {
+    color: #1abc9c; /* Vibrant Green for links */
+    text-decoration: none; /* Remove underline */
+}
+
+footer a:hover {
+    color: #16a085; /* Darker Green on hover */
+}

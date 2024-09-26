@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz with EXP Bar</title>
+    <link rel="stylesheet" href="quiz_css.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>SIMPLE QUIZ</h1>
+
+        <!-- EXP bar section -->
+        <div class="exp-container">
+            <div class="exp-bar" id="exp-bar"></div>
+        </div>
+        <p id="exp-text">EXP: 0/40</p> <!-- Dynamic EXP text -->
+
+        <div class="quiz">
+            <h2 id="question">Question goes here</h2> <!-- Dynamic question will be placed here -->
+            
+            <div id="answer-buttons"> <!-- Buttons for answers will be dynamically generated here -->
+            </div>
+
+            <button id="next-button">NEXT</button> <!-- Next button, hidden initially -->
+        </div>
+
+        <div id="result"></div> <!-- Result will show after the quiz ends -->
+    </div>
+
+    <script src="quiz_js.js"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>

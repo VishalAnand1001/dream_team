@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #d1d9e1 0%, #9db2c7 100%);
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: 100px 0 20px; /* Increased top margin, decreased bottom margin */
+    font-size: 2.5em; /* Larger font size */
+    color: #2c3e50; /* Darker color for contrast */
+}
+
+h3 {
+    margin: 10px 0; /* Decreased margin for less space */
+    text-align: left; /* Align to the left */
+    font-size: 1.8em; /* Slightly larger size */
+    color: #34495e; /* Subtle color change */
+    margin-left: 220px; /* Adjusted left margin for alignment */
+}
+
+ul {
+    margin: 20px auto; /* Centered list */
+    padding-left: 40px; /* Increased padding for better alignment */
+    max-width: 800px; /* Set max width for better readability */
+    list-style-type: square; /* Change bullet style */
+}
+
+.image-container {
+    text-align: center;
+    margin: 20px 0; /* Reduced margin around the container */
+}
+
+.responsive-img {
+    width: 70%; /* Slightly larger size */
+    max-width: 700px; /* New max width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+    transition: transform 0.3s ease; /* Smooth scaling */
+}
+
+.responsive-img:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
